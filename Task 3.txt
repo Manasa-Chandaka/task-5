@@ -1,0 +1,42 @@
+Task 3
+
+Book 1
+{
+  "title": "Atomic Habits",
+  "author": "James Clear",
+  "category": "Self Help",
+  "totalCopies": 10,
+  "availableCopies": 8
+}
+Book 2
+{
+  "title": "The Alchemist",
+  "author": "Paulo Coelho",
+  "category": "Fiction",
+  "totalCopies": 15,
+  "availableCopies": 12
+}
+Book 3
+{
+  "title": "Clean Code",
+  "author": "Robert C. Martin",
+  "category": "Programming",
+  "totalCopies": 8,
+  "availableCopies": 5
+}
+Book 4
+{
+  "title": "Rich Dad Poor Dad",
+  "author": "Robert Kiyosaki",
+  "category": "Finance",
+  "totalCopies": 20,
+  "availableCopies": 16
+}
+Book 5
+{
+  "title": "Harry Potter and the Sorcerer's Stone",
+  "author": "J.K. Rowling",
+  "category": "Fantasy",
+  "totalCopies": 25,
+  "availableCopies": 21
+}
