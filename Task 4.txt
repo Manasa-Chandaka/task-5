@@ -1,0 +1,44 @@
+Task 4: Explain These Concepts (10 Marks)
+1. MongoDB
+
+MongoDB is a NoSQL database that stores data as JSON-like documents instead of tables and rows. It is flexible, scalable, and suitable for modern web applications.
+
+2. MongoDB Compass
+
+MongoDB Compass is the official graphical user interface (GUI) for MongoDB. It allows developers to create databases, manage collections, insert documents, and run queries without writing commands.
+
+3. Database
+
+A database is an organized collection of related information. It stores data securely and allows users to retrieve, update, and manage it efficiently.
+
+4. Collection
+
+A collection is a group of related documents in MongoDB. It is similar to a table in relational databases but does not require a fixed schema.
+
+5. Document
+
+A document is a single record stored in a MongoDB collection. It is represented in JSON format and contains key-value pairs.
+
+6. Mongoose
+
+Mongoose is an ODM (Object Data Modeling) library for Node.js. It connects Node.js applications to MongoDB and provides schemas, models, validation, and query methods.
+
+7. Model
+
+A model is a JavaScript object created from a Mongoose schema. It is used to perform CRUD operations on a specific MongoDB collection.
+
+8. Validation
+
+Validation ensures that the data being stored in the database follows predefined rules, such as required fields, data types, or value limits. It helps maintain data accuracy and consistency.
+
+9. CRUD
+
+CRUD stands for:
+
+Create – Add new data
+Read – Retrieve existing data
+Update – Modify existing data
+Delete – Remove data from the database
+
+These are the four basic operations performed on a database.
+
