@@ -1,0 +1,39 @@
+Task 5: Scenario-Based Questions (15 Marks)
+Q1. If Instagram stores all photos inside a JavaScript array, what problems will occur?
+
+The data will be lost whenever the server restarts because arrays are stored in memory.
+It cannot efficiently handle millions of photos and users, leading to poor performance.
+Data cannot be shared across multiple servers or devices, making the application unreliable.
+Q2. Why do we need MongoDB instead of books.js?
+
+MongoDB stores data permanently, while data in a JavaScript file can be lost or become difficult to manage.
+MongoDB can efficiently handle large amounts of data and many users at the same time.
+MongoDB supports searching, filtering, updating, and deleting records quickly using database queries.
+Q3. Suppose your library has 10,000 books. How will this structure help?
+Database
+    ↓
+Collection
+    ↓
+Document
+
+The Database stores all information related to the library. Inside the database, separate Collections organize different types of data, such as books, users, and borrow records. Each Document represents a single record, like one book or one user. This structure keeps data organized, makes searching faster, and allows the system to efficiently manage thousands of books.
+
+⭐ Bonus Challenge (5 Marks)
+Application: Netflix
+Database Design
+NetflixDB
+│
+├── Users
+│     ├── User Document
+│
+├── Movies
+│     ├── Movie Document
+│
+├── TVShows
+│     ├── Show Document
+│
+├── WatchHistory
+│     ├── History Document
+│
+└── Subscriptions
+      ├── Subscription Document
